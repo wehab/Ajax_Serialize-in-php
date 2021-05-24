@@ -1,0 +1,79 @@
+#pagination{
+    text-align: center;
+    padding: 10px;
+  }
+  #pagination a{
+    background: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding:5px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #pagination a.active{
+    background: #27ae60;
+  }
+  #ajaxbtn{
+    background: #6c5ce7;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    padding: 10px 100px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #ajaxbtn:disabled {
+    background: #7f8c8d;
+    color: #2c3e50;
+    cursor: default;
+  }
+
+
+input[type="text"],
+input[type="number"],select{
+  width: 200px;
+  height: 40px;
+  font-size: 17px;
+  padding: 3px;
+}
+input[type="number"]{
+  width: 60px;
+}
+
+input[type="button"]{
+  background: #6c5ce7;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  padding: 5px 10px;
+  outline: 0;
+  cursor: pointer;
+}
+#response{
+  width: 70%;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+.error-msg{
+  background: #f2dedf;
+  color: #9c4150;
+  border: 1px solid #e7ced1;
+}
+.success-msg{
+  background: #e0efda;
+  color: #407a4a;
+  border: 1px solid #c6dfb2;
+}
+.process-msg{
+  background: #d9edf6;
+  color: #377084;
+  border: 1px solid #c8dce5;
+}
+
+.main_table{
+  border: 3px solid blue;
+}
